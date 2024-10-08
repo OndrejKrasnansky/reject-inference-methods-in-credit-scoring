@@ -23,8 +23,6 @@ As these files have more than 6GB all together we have uploaded them to a google
 
 Script function.R contains all functions which were repeated for all models. The script is imported for every models script (source) 
 
-#################################################################################################################################
-
 
 	-Real_Data_scripts:
 			    - UCI_CC_augmentation.R
@@ -39,8 +37,6 @@ Parcelling and augmentation models are saved as rds. by saveRDS ().
 
 UCI_CC_complete.R script contains reclassified model. Importing parcelling_models_list_real and augmentation_models_list_real can be runned to obtain a final comparation plot.
 
-################################################################################################################################
-
 
 	-Strategy_3_single_script:
 				   -strategy_3_reclassification.R
@@ -48,8 +44,6 @@ UCI_CC_complete.R script contains reclassified model. Importing parcelling_model
 
 This file contains just a single strategy for the initial plot of comparing financed and reclassification logistics regression.
 
-
-################################################################################################################################
 
 	-Statistical_test_script:
 				   -statistical_tests.R
